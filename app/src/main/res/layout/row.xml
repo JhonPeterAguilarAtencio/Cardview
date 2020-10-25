@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:elevation="3dp"
+    android:layout_margin="5dp"
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#fff">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/idimageView"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_launcher_background"
+            android:padding="15dp"
+            />
+        <TextView
+            android:id="@+id/idusername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/idimageView"
+            android:text="Username"
+            android:textColor="#000"
+            android:fontFamily="sans-serif"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="13dp"/>
+
+        <TextView
+            android:id="@+id/iduserfollowers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/idimageView"
+            android:layout_below="@+id/idusername"
+            android:text="230 Followers"
+            android:fontFamily="sans-serif"
+            android:textSize="13sp"/>
+        
+        <Button
+            android:id="@+id/btnVer"
+            android:layout_width="100dp"
+            android:text="Follow"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/follow_back_btn"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

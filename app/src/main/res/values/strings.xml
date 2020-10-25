@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Cardview</string>
+    <string name="descCristiano">
+            Apodado con el numerónimo CR7, Cristiano Ronaldo es en realidad Cristiano Ronaldo dos Santos Aveiro. Con ese nombre
+        nació el ahora delantero de la Vecchia Signora el 5 de febrero de 1985 en el barrio de Funchal, Isla de Madeira (Portugal).
+    </string>
+    <string name="desmessi">
+        Leo Messi es un joven jugador de fútbol argentino que milita actualmente al F.C Barcelona. Su estatura es
+        baja pero su constitución es fuerte , atlética y flexible.Tiene el pelo corto , lacio y moreno , sus ojos
+        pequeños , brillantes y marrones. Su tez es clara y sonrosada.
+    </string>
+    <string name="despaolo">
+        José Paolo Guerrero Gonzales (Lima, Perú, 1 de enero de 1984) es un futbolista peruano. Juega como delantero centro
+        y su equipo actual es el SC Internacional del Campeonato Brasileño de Serie A.Es internacional absoluto con la
+        Selección del Perú desde el 2004, de la cual es máximo goleador histórico.
+    </string>
+    <string name="desibrahimovic">
+        Literalmente y en sentido figurado, Ibrahimovic, con sus seis pies y cinco pulgadas de estatura, es una figura
+        gigante en el mundo del futbol.Fue una vez considerado el tercer mejor atacante detrás de Lionel Messi y
+        Cristiano Ronaldo.
+    </string>
+    <string name="descripcion">
+        Kylian Mbappé Lottin (pronunciación en francés: /kiljan (ɛ)mbape lɔtɛ̃/; París, Isla de Francia, 20 de diciembre de 1998)
+        es un futbolista francés.Juega como delantero y su equipo actual es el París Saint-Germain Football Club de la Ligue 1
+        de Francia.
+    </string>
+</resources>

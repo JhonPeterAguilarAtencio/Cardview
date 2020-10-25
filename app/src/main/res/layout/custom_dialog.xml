@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iddialogimage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/ic_launcher_background"/>
+
+    <TextView
+        android:id="@+id/iddialogusuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/iddialogimage"
+        android:text="Nombre"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"/>
+
+    <TextView
+        android:id="@+id/iddialogapellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/iddialogusuario"
+        android:text="Apellidos"
+        android:textSize="14sp"
+        android:layout_marginTop="3dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"/>
+
+    <Button
+        android:id="@+id/btndialog"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/iddialogapellidos"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="30dp"
+        android:text="Follow"
+        android:textColor="#3949AB"
+        android:background="@drawable/follow_back_btn"
+        android:textAllCaps="false"/>
+    <TextView
+        android:id="@+id/txtdialogdesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/btndialog"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="20dp"
+        android:text="descripcion"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
